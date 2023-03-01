@@ -24,7 +24,6 @@ body {
 }
 
 .container {
-  margin: 0 auto;
   background: #23424a;
   color: white;
   padding: 50px 0;
@@ -33,5 +32,6 @@ body {
 main,
 .intro-content {
   margin: 0 auto;
-  width: min(65ch, 50%);
+  max-width: 40rem;
+  padding-inline: 3rem;
 }
